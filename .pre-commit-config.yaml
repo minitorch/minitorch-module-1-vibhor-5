@@ -28,7 +28,6 @@ repos:
   - id: requirements-txt-fixer
   - id: trailing-whitespace
 
-<<<<<<< HEAD
 - repo: https://github.com/timothycrosley/isort
   rev: 5.10.1
   hooks:
@@ -61,19 +60,3 @@ repos:
   rev: v1.8.1
   hooks:
   - id: darglint
-=======
-- repo: https://github.com/astral-sh/ruff-pre-commit
-  # Ruff version.
-  rev: v0.6.1
-  hooks:
-    # Run the linter.
-    - id: ruff
-      args: [ --fix ]
-    # Run the formatter.
-    - id: ruff-format
-
-- repo: https://github.com/RobertCraigie/pyright-python
-  rev: v1.1.376
-  hooks:
-    - id: pyright
->>>>>>> module0/master
